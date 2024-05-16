@@ -1,0 +1,6 @@
+config SINGLETON
+	bool "Enable singleton pattern definition macro"
+	default n
+	help
+		Peripheral Integration project config to enable APIs for singleton.
+		Can be set in board_name.conf file as well <CONFIG_SINGLETON=y>		

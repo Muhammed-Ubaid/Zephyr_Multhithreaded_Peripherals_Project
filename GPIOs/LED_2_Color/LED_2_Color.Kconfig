@@ -1,0 +1,6 @@
+config INTG_LED2COLOR
+	bool "Enable 2 color LED Library"
+	default n
+	help
+		Peripheral Integration project config to enable APIs for 2 color LED.
+		Can be set in board_name.conf file as well <CONFIG_INTG_LED2COLOR=y>		
