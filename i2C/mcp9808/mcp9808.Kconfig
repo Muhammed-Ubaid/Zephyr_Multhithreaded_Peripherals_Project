@@ -1,0 +1,6 @@
+config MCP9808_MPP
+	bool "Enable mcp9808 i2c sensor"
+	default n
+	help
+		Peripheral Integration project config to enable mcp9808 temperature sensor over i2C.
+		Can be set in board_name.conf file as well <CONFIG_MCP9808_MPP=y>		

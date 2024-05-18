@@ -1,0 +1,9 @@
+# Subsystem configuration options
+
+# Copyright (c) 2016-2017 Intel Corporation
+# Copyright (c) 2021 Nordic Semiconductor
+# SPDX-License-Identifier: Apache-2.0
+
+menu "mcp9808_mpp"
+orsource "mcp9808/mcp9808.Kconfig"
+endmenu

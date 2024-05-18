@@ -6,5 +6,7 @@ project(blinky)
 
 add_subdirectory("GPIOs")
 add_subdirectory("Embedded_C_Design_Patterns")
+add_subdirectory("i2c")
+add_subdirectory("Generic_Declarations")
 
 target_sources(app PRIVATE src/main.c)
