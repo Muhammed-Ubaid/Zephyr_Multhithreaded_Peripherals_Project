@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    // Dynamically allocate memory
+    int *add = (int *)malloc(sizeof(int));
+    
+    // Check if memory allocation was successful
+    if (add == NULL) {
+        printf("Memory allocation failed\n");
+        return 1; // return non-zero to indicate failure
+    }
+    
+    // Assign value to the allocated memory
+    *add = 55;
+    
+    // Print the value
+    printf("%d\n", *add);
+    
+    // Free the allocated memory
+    free(add);
+
+    return 0;
+}

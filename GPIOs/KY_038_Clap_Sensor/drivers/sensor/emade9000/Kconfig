@@ -1,0 +1,11 @@
+# EMINV energy meter interface Sensor configuration options
+# Copyright (c) 2024 ubaid
+# SPDX-License-Identifier: Apache-2.0
+
+menuconfig EMADE9000
+	bool "EMADE9000 energy meter Sensor"
+	default n
+	depends on SPI
+	depends on GPIO
+	help
+	  Enable driver for the EMADE9000 energy meter

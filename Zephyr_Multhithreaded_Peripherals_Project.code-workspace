@@ -11,7 +11,14 @@
 		"files.associations": {
 			"compare": "c",
 			"ratio": "c",
-			"type_traits": "c"
+			"type_traits": "c",
+			"stdint.h": "c",
+			"ky_038.h": "c",
+			"sensor.h": "c",
+			"device.h": "c",
+			"log.h": "c",
+			"kernel.h": "c",
+			"string.h": "c"
 		}
 	}
 }

@@ -1,0 +1,1 @@
+add_subdirectory_ifdef(CONFIG_EMADE9000 emade9000)

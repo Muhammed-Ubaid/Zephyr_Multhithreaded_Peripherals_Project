@@ -1,5 +1,6 @@
 rsource "GPIOs/GPIOs.Kconfig"
 rsource "Embedded_C_Design_Patterns/Design_Patterns.Kconfig"
 rsource "i2C/i2C.Kconfig"
+rsource "SPI/SPI.Kconfig"
 
 source "kconfig.zephyr"	

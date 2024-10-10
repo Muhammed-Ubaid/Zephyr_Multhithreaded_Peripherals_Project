@@ -16,7 +16,6 @@
      aliases {
              greenled2clr = &greenled2clr;
              redled2clr = &redled2clr;
-
      };
 
      led2clr {
@@ -30,5 +29,12 @@
 			label = "Red LED 2 color";
 		};
 	};
+
+    ky038 {
+        compatible = "zephyr,ky038";
+		status = "okay";
+        input-gpios = <&gpio0 18 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;  // Use a free GPIO pin
+		ky038;
+    };
 
 };

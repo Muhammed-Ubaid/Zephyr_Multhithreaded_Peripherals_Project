@@ -1,0 +1,6 @@
+menu "KY_038"
+
+rsource "drivers/Kconfig"
+
+endmenu
+

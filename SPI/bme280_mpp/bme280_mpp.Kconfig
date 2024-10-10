@@ -1,0 +1,6 @@
+config BME280_MPP
+	bool "Enable BME280 i2c sensor"
+	default n
+	help
+		Peripheral Integration project config to enable BME280 temperature, pressure & humidity sensor over SPI.
+		Can be set in board_name.conf file as well <CONFIG_BME280_MPP=y>		
